@@ -1,0 +1,20 @@
+version: 2
+
+sources:
+    - name: staging
+      database: mlops-zoomcamp-354700
+      schema: energy_data
+
+      tables:
+        - name: demand_metadata_native
+        - name: demand_data_native
+        - name: hourly_updated_weather
+        - name: 2015_weather_station_native
+        - name: 2016_weather_station_native
+        - name: 2017_weather_station_native
+        - name: 2018_weather_station_native
+        - name: 2019_weather_station_native
+        - name: 2020_weather_station_native
+        - name: 2021_weather_station_native
+        - name: 2022_weather_station_native
+        - name: energy_demand_forecasts
